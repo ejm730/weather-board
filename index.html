@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <!-- Add links to CSS libraries or your own stylesheet here -->
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main class="container">
+        <!-- Search Section -->
+        <section class="search-section">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </section>
+
+        <!-- Search History -->
+        <aside class="search-history">
+            <ul id="history-list">
+                <!-- History items will be populated here -->
+            </ul>
+        </aside>
+
+        <!-- Current Weather -->
+        <section class="current-weather">
+            <h2 id="current-city">City Name (Date)</h2>
+            <img id="current-icon" src="" alt="Weather icon"> <!-- Placeholder for the weather icon -->
+            <p><strong>Temperature:</strong> <span id="current-temp">XX°C</span></p>
+            <p><strong>Humidity:</strong> <span id="current-humidity">XX%</span></p>
+            <p><strong>Wind Speed:</strong> <span id="current-wind">XX m/s</span></p>
+            <p><strong>UV Index:</strong> <span id="current-uv">XX</span></p>
+        </section>
+
+        <!-- 5-Day Forecast -->
+        <section class="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-cards">
+                <!-- Repeated 5 times for each day -->
+                <div class="forecast-card">
+                    <h3>Date</h3>
+                    <img src="" alt="Weather icon"> <!-- Placeholder for the weather icon -->
+                    <p>Temp: XX°C</p>
+                    <p>Wind: XX m/s</p>
+                    <p>Humidity: XX%</p>
+                </div>
+                <div class="forecast-card">
+                    <h3>Date</h3>
+                    <img src="" alt="Weather icon"> <!-- Placeholder for the weather icon -->
+                    <p>Temp: XX°C</p>
+                    <p>Wind: XX m/s</p>
+                    <p>Humidity: XX%</p>
+                </div>
+                <div class="forecast-card">
+                    <h3>Date</h3>
+                    <img src="" alt="Weather icon"> <!-- Placeholder for the weather icon -->
+                    <p>Temp: XX°C</p>
+                    <p>Wind: XX m/s</p>
+                    <p>Humidity: XX%</p>
+                </div>
+                <div class="forecast-card">
+                    <h3>Date</h3>
+                    <img src="" alt="Weather icon"> <!-- Placeholder for the weather icon -->
+                    <p>Temp: XX°C</p>
+                    <p>Wind: XX m/s</p>
+                    <p>Humidity: XX%</p>
+                </div>
+                <div class="forecast-card">
+                    <h3>Date</h3>
+                    <img src="" alt="Weather icon"> <!-- Placeholder for the weather icon -->
+                    <p>Temp: XX°C</p>
+                    <p>Wind: XX m/s</p>
+                    <p>Humidity: XX%</p>
+                </div>
+
+                <!-- ... Repeat the above structure 4 more times ... -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Add links to JS libraries  -->
+</body>
+
+</html>
